@@ -9293,7 +9293,7 @@ ScriptedImporter:
     - {x: 33, y: 34}
     - {x: 34, y: 35}
     tessellationDetail: 0
-    uvTransform: {x: 907, y: -1481}
+    uvTransform: {x: 1183, y: 4}
     spritePosition: {x: 276, y: 1485}
   - name: L.palm
     originalName: 

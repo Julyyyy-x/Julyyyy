@@ -15,7 +15,7 @@ D:/download diy/工作学习/学习/训练营/美术营/RealityArtCamp/RealityAr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50249
+60885
 Successfully changed project path to: D:/download diy/工作学习/学习/训练营/美术营/RealityArtCamp/RealityArtCamp
 D:/download diy/工作学习/学习/训练营/美术营/RealityArtCamp/RealityArtCamp
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/download diy/工作学习/学习/训练营/美术营/RealityArtCamp/RealityAr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40608] Host "[IP] 169.254.45.111 [Port] 0 [Flags] 2 [Guid] 1829193174 [EditorId] 1829193174 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SPVJD045) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29848] Host "[IP] 169.254.45.111 [Port] 0 [Flags] 2 [Guid] 3142889861 [EditorId] 3142889861 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SPVJD045) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [40608] Host "[IP] 169.254.45.111 [Port] 0 [Flags] 2 [Guid] 1829193174 [EditorId] 1829193174 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SPVJD045) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29848] Host "[IP] 169.254.45.111 [Port] 0 [Flags] 2 [Guid] 3142889861 [EditorId] 3142889861 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SPVJD045) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 57.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 76.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.6f1c1 (98938d5f2963)
 [Subsystems] Discovering subsystems at path D:/download diy/unity save/2022.3.6f1c1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'D:/download diy/unity save/2022.3.6f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/download diy/unity save/2022.3.6f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/download diy/unity save/2022.3.6f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/download diy/unity save/2022.3.6f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011014 seconds.
-- Loaded All Assemblies, in  0.289 seconds
+Registered in 0.017321 seconds.
+- Loaded All Assemblies, in  0.515 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.192 seconds
-Domain Reload Profiling: 475ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (105ms)
-		LoadAssemblies (82ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (89ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (142ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (192ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (312ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (151ms)
+		SetupLoadedEditorAssemblies (240ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (100ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,78 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\download diy\工作学习\学习\训练营\美术营\RealityArtCamp\RealityArtCamp\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\download diy\工作学习\学习\训练营\美术营\RealityArtCamp\RealityArtCamp\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.742 seconds
-Refreshing native plugins compatible for Editor in 15.18 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 19.16 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.750 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1817ms
+	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (502ms)
-		LoadAssemblies (330ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (426ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (222ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (751ms)
+	FinalizeReload (903ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
+		SetupLoadedEditorAssemblies (765ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (503ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (636ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 12.64 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 18.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (60.4 KB). Loaded Objects now: 4477.
-Memory consumption went from 140.0 MB to 140.0 MB.
-Total: 2.924800 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.377700 ms  DeleteObjects: 0.100100 ms)
+Unloading 63 unused Assets / (60.5 KB). Loaded Objects now: 4477.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 3.320400 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.755900 ms  DeleteObjects: 0.109000 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4477.
+Memory consumption went from 75.9 MB to 75.9 MB.
+Total: 4.007100 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.080800 ms MarkObjects: 3.602100 ms  DeleteObjects: 0.021800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -182,81 +204,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68681.791299 seconds.
-  path: Assets/What you learn today
-  artifactKey: Guid(9de975b0879aa7d4bb82d77c33c4211f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today using Guid(9de975b0879aa7d4bb82d77c33c4211f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd597052a6f3309828a163741f1a88f') in 0.002349 seconds
+  Time since last request: 8831.530187 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(927ff532ff7784c429392df262d36976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(927ff532ff7784c429392df262d36976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025096129d7553f26864fa517068d682') in 0.002352 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 80.198816 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/1、骨骼绑定/1、骨骼绑定.md
-  artifactKey: Guid(8ed90a9668d56f5449947c6720d5e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/1、骨骼绑定/1、骨骼绑定.md using Guid(8ed90a9668d56f5449947c6720d5e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4c1f5804b972711708e789329427a3') in 0.005746 seconds
+  Time since last request: 283.439129 seconds.
+  path: Assets/IKGameObject
+  artifactKey: Guid(342fc7698c0ffed46b80621371c13b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IKGameObject using Guid(342fc7698c0ffed46b80621371c13b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a2a22b46eba334db94d67655b12693') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.866200 seconds.
+  path: Assets/IK
+  artifactKey: Guid(927ff532ff7784c429392df262d36976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IK using Guid(927ff532ff7784c429392df262d36976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9587aa632363ef03c8d65bf4670dc575') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9889.634347 seconds.
+  path: Assets/Animation/idle.anim
+  artifactKey: Guid(f0e08a4b2336f3f4782d067cf60f9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/idle.anim using Guid(f0e08a4b2336f3f4782d067cf60f9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ff9dc52497ee00e98f5c2919acfd3d') in 0.092892 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 5.046682 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/4、Sprite Swap换装系统
-  artifactKey: Guid(930eda5e77b65d442b2b0e86cd3023f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/4、Sprite Swap换装系统 using Guid(930eda5e77b65d442b2b0e86cd3023f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6bd7d42891314e83d46693922b0177') in 0.000493 seconds
+  Time since last request: 3778.880820 seconds.
+  path: Assets/WOLF.psb
+  artifactKey: Guid(2b56512322b06d24498b1c57c775913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WOLF.psb using Guid(2b56512322b06d24498b1c57c775913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c4c5c7dcebfa9c8d57ebcb2eca33eb') in 0.601933 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 180
 ========================================================================
 Received Import Request.
-  Time since last request: 1.568630 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/4、Sprite Swap换装系统/4、Sprite Swap换装系统.md
-  artifactKey: Guid(c8c2591a47d7f9342893515f5a8f96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/4、Sprite Swap换装系统/4、Sprite Swap换装系统.md using Guid(c8c2591a47d7f9342893515f5a8f96bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffe0f1270f27626b14e1f22df4eef04') in 0.001223 seconds
+  Time since last request: 197.255284 seconds.
+  path: Assets/WOLF.psb
+  artifactKey: Guid(2b56512322b06d24498b1c57c775913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WOLF.psb using Guid(2b56512322b06d24498b1c57c775913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2a3a46e651833057270651ad76c8aa') in 0.139387 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 7.197887 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/3、骨骼动画/3、骨骼动画.md
-  artifactKey: Guid(7ab88ae693abf7e40bd651be4aaed4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/3、骨骼动画/3、骨骼动画.md using Guid(7ab88ae693abf7e40bd651be4aaed4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4467875d0bda6ced404d81d495ee99c2') in 0.001319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.237151 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/3、骨骼动画
-  artifactKey: Guid(590f014f2d04604458257b81a07e0a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/3、骨骼动画 using Guid(590f014f2d04604458257b81a07e0a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0258ee750b331bda359ce9b31bc2ab') in 0.000485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.646932 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程/2、IK反向动力学
-  artifactKey: Guid(e7cfbc4d5d089a543a4443aa24e2aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程/2、IK反向动力学 using Guid(e7cfbc4d5d089a543a4443aa24e2aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5394e889d36ddf2d70147561cfca2812') in 0.000486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.734434 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation
-  artifactKey: Guid(c367a0823eaf40949937b94388427a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation using Guid(c367a0823eaf40949937b94388427a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666de22829422f12893b75547b832b0') in 0.000485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 30.791759 seconds.
-  path: Assets/What you learn today/unity-skeleton-animation/入门教程
-  artifactKey: Guid(9bc8d9a97233aff448551ee2578528cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/unity-skeleton-animation/入门教程 using Guid(9bc8d9a97233aff448551ee2578528cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ae10ca6e47c3f671c04cd6fa4b3d1') in 0.000615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.247885 seconds.
-  path: Assets/What you learn today/ta-beginner/6、学习写shader代码/6、学习写shader代码.md
-  artifactKey: Guid(499c20f714fee1a4282cad57ff298f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/What you learn today/ta-beginner/6、学习写shader代码/6、学习写shader代码.md using Guid(499c20f714fee1a4282cad57ff298f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e9069d7319e1a47bf7961620f822c5') in 0.001262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 180
